@@ -1,0 +1,31 @@
+<div className="flex flex-row w-full justify-center items-center space-x-8 pt-5 pb-5 bg-yellow-100">
+          <Image
+            src={Bella1}
+            className=" rounded-xl"
+            width={200}
+            height={400}
+            alt="" 
+          />
+          <Image
+            src={Bella2}
+            className=" rounded-xl"
+            width={200}
+            height={400}
+            alt=""
+          />
+          <Image
+            src={Bella3}
+            className=" rounded-xl"
+            width={200}
+            height={400}
+            alt="" 
+          />
+          <Image
+            src={Bella4}
+            className=" rounded-xl"
+            width={200}
+            height={400}
+            alt="" 
+          />
+
+        </div>
