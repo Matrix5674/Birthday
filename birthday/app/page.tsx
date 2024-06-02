@@ -12,7 +12,7 @@ import useCountdown from "./Hooks/useCountdown";
 export default function Home() {
   return (
     <main data-theme={Theme} className="flex flex-col justify-center items-center h-screen pageBackground">
-      <Link href="/pages/happy-birthday">
+      <Link href="/pages/loading">
         <button className= "pageButton" >
           <span className="text-xl font-bold text-yellow-400">Open</span>
           </button>

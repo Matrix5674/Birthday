@@ -73,7 +73,7 @@ body {
   font-family: inherit;
   cursor: pointer;
   color: #fff;
-  width: 9em;
+  width: 12em;
   height: 3em;
   line-height: 2em;
   text-align: center;
@@ -350,4 +350,32 @@ body {
 .image-wrapper img {
   max-width: 500px; /* Adjust size as needed */
   max-height: 500px; /* Adjust size as needed */
+}
+
+@keyframes moveRight {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(100%); }
+}
+
+/* Apply animation and transition to component */
+.moveRightComponent {
+  animation: moveRight 8s forwards;
+}
+
+@keyframes fadeInPics {
+  0% { opacity:0; }
+  100% { opactiy:1; }
+}
+
+.fadeInPictures {
+  animation:fadeInPics 6s forwards;
+}
+
+@keyframes fadeInBG {
+  0% { opacity:0; }
+  100% { opactiy:1; }
+}
+
+.fadeInBG {
+  animation:fadeInPics 4s forwards;
 }

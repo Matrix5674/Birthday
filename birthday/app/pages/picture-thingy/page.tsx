@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {motion} from 'framer-motion'
 import Image from 'next/image'
 
 import Bella1 from '../../Assets/Bella1.jpg'
@@ -12,10 +12,18 @@ import Bella7 from '../../Assets/Bella7.jpg'
 import Bella8 from '../../Assets/Bella8.jpg'
 
 
+
+
 const BookGallery = () => {
   return (
-     <main className='bookBackground'>
-        <div className='image-container'>
+     <main className='bookBackground fadeInBG'>
+        <div className='image-container fadeInComponents'>
+
+            <div>
+               <p className='text-xl text-white font-bold mt-4 ml-4 fadeInComponents'>You wouldn't let me post so...</p>
+               <p className='text-xl text-white font-bold mt-4 ml-4 fadeInComponents'>Gallery -&gt; -&gt;</p>
+            </div>
+         
             <div className="image-wrapper image1">
                <Image
                   src={Bella1}
@@ -55,7 +63,7 @@ const BookGallery = () => {
             <div className="image-wrapper image5">
                <Image
                   src={Bella5}
-                  className="rounded-l opacity-85 hover:opacity-100l"
+                  className="rounded-l opacity-85 hover:opacity-100"
                   width={100}
                   height={200}
                   alt="" 
@@ -73,7 +81,7 @@ const BookGallery = () => {
             <div className="image-wrapper image7">
                <Image
                   src={Bella7}
-                  className="rounded-l opacity-85 hover:opacity-100l"
+                  className="rounded-l opacity-85 hover:opacity-100"
                   width={150}
                   height={300}
                   alt="" 
